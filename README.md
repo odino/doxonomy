@@ -82,3 +82,8 @@ and open your `index.html` file from your favorite browser
 
 * graphs generated through [D3](https://github.com/d3/d3) (mt rusty SVG / D3 skills could use some help)
 * sample icons come from [flaticon](http://www.flaticon.com/).
+
+## Development
+
+Just clone this repo and run `npm install && npm start`
+(`nodemon` should be the only required, global dependency).
