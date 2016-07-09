@@ -1,0 +1,22 @@
+{
+  "name": "doxonomy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec \"./node_modules/webpack/bin/webpack.js && http-server\" --watch index.html --watch doxonomy.js --watch doxonomy.css"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "d3": "^3.5.17",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "js-yaml": "^3.6.1",
+    "markdown": "^0.5.0",
+    "style-loader": "^0.13.1",
+    "vis": "^4.16.1",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
