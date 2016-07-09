@@ -25,6 +25,8 @@ Simply create an `index.html` like:
 </html>
 ```
 
+> Grab the CSS and JS files from the [release page](https://github.com/odino/doxonomy/releases/tag/1.0.0)
+
 As you can see, we required 2 files, JS and CSS, to bootstrap
 a doxonomy project, let's now add an inline script to init our
 diagram:
