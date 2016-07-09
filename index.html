@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Doxonomy</title>
+    <link rel="stylesheet" href="/doxonomy.bundle.css">
+  </head>
+  <body>
+  <script src="/doxonomy.bundle.js"></script>
+  <script type="text/javascript">
+    var url = `/data${window.location.pathname === '/' ? '/index.yml' : window.location.pathname}`;
+
+    doxonomy.init({
+      url: url,
+      components: '/data/components.yml',
+    })
+  </script>
+  </body>
+</html>

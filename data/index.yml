@@ -1,0 +1,30 @@
+nodes:
+  "ios app":
+    level: 1
+    icon: /images/smartphone-call.svg
+  "android app":
+    level: 1
+    icon: /images/android.svg
+  API:
+    level: 2
+    icon: /images/api.svg
+  database:
+    level: 3
+    icon: /images/database.svg
+  redis:
+    level: 3
+    icon: /images/redis.svg
+
+relations:
+  - from: ios app
+    to: API
+    label: gets data from
+  - from: android app
+    to: API
+    label: gets data from
+  - from: redis
+    to: API
+    label: reads from
+  - from: API
+    to: database
+    label: writes in

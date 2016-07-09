@@ -1,0 +1,9 @@
+API:
+  repo: https://github.com/some/repo
+  example_response: https://api.example.org/take/this/
+  content: >
+    # API
+
+    > We can use any kind of markdown
+
+    This is a sample documentation for **a component**.
