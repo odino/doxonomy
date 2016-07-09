@@ -2,7 +2,7 @@
 
 > Generate system diagrams with ease
 
-![sample]()
+![sample](https://raw.githubusercontent.com/odino/doxonomy/master/sample.png)
 
 Doxonomy is a simple library that lets you document
 your architecture with ease.
