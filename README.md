@@ -86,4 +86,4 @@ and open your `index.html` file from your favorite browser
 ## Development
 
 Just clone this repo and run `npm install && npm start`
-(`nodemon` should be the only required, global dependency).
+(`nodemon` and `http-server` should be the only required, global dependencies).
